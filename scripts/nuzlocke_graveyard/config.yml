@@ -1,0 +1,9 @@
+--- !ruby/object:PluginManager::Config
+name: nuzlocke_graveyard
+authors:
+- Raty
+version: 1.0.0.0
+deps: []
+retry_psdk_compatibility_after_plugin_load: false
+added_files:
+- graphics/interface/nuzlocke_graveyard/frame.png

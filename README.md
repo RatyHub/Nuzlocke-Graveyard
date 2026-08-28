@@ -1,0 +1,71 @@
+# Nuzlocke Graveyard
+
+## 🇫🇷 Français
+
+### Introduction
+
+Nuzlocke Graveyard est un plugin PSDK qui ajoute une interface permettant de consulter le cimetière Nuzlocke de la sauvegarde en cours.
+
+Le plugin est rétrocompatible : les Pokémon déjà présents dans le cimetière avant son installation seront également affichés.
+
+### Fonctionnalités
+
+- affiche la liste des Pokémon morts, du plus récent au plus ancien ;
+- permet de consulter le Résumé de chaque Pokémon.
+
+### Installation
+
+Placez le fichier `.psdkplug` dans le dossier `scripts` du projet.
+
+Au démarrage, le Plugin Manager de PSDK installe le plugin automatiquement.
+
+### Asset graphique
+
+Le bandeau supérieur de l'interface se trouve ici :
+
+```text
+graphics/interface/nuzlocke_graveyard/frame.png
+```
+
+### Commande d'ouverture
+
+L'interface peut être ouverte depuis un événement avec la commande suivante :
+
+```ruby
+GamePlay.open_nuzlocke_graveyard
+```
+
+## 🇬🇧 English
+
+### Introduction
+
+Nuzlocke Graveyard is a PSDK plugin that adds an interface for viewing the Nuzlocke graveyard of the current save file.
+
+The plugin is backward-compatible: Pokémon that were already in the graveyard before installation will also be displayed.
+
+### Features
+
+- displays the list of deceased Pokémon, from newest to oldest;
+- lets you view each Pokémon's Summary screen.
+
+### Installation
+
+Place the `.psdkplug` file in the project's `scripts` folder.
+
+On startup, PSDK's Plugin Manager installs the plugin automatically.
+
+### Graphic asset
+
+The interface's top frame is located here:
+
+```text
+graphics/interface/nuzlocke_graveyard/frame.png
+```
+
+### Opening command
+
+The interface can be opened from an event with the following command:
+
+```ruby
+GamePlay.open_nuzlocke_graveyard
+```
