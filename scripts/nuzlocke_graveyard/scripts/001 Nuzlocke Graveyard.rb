@@ -298,6 +298,8 @@ module GamePlay
       play_decision_se
       GamePlay.open_summary(pokemon, @entries)
       true
+    ensure
+      $scene = nil unless Graphics.window
     end
 
     def action_b
