@@ -37,13 +37,15 @@ Placez le fichier `.psdkplug` dans le dossier `scripts` du projet.
 
 Au démarrage, le Plugin Manager de PSDK installe le plugin automatiquement.
 
-### Asset graphique
+### Assets graphiques
 
-Le bandeau supérieur de l'interface se trouve ici :
+Les assets propres au plugin se trouvent dans `graphics/interface/nuzlocke_graveyard` :
 
-```text
-graphics/interface/nuzlocke_graveyard/frame.png
-```
+- `frame.png` : bandeau supérieur utilisé dans les deux modes ;
+- `button_fr.png` : bouton représentant un Pokémon en mode `:dex` lorsque le jeu est en français ;
+- `button_en.png` : bouton représentant un Pokémon en mode `:dex` lorsque le jeu est en anglais ou dans une autre langue.
+
+Le mode `:party` réutilise les boutons natifs du menu Équipe de PSDK.
 
 ### Commande d'ouverture
 
@@ -90,13 +92,15 @@ Place the `.psdkplug` file in the project's `scripts` folder.
 
 On startup, PSDK's Plugin Manager installs the plugin automatically.
 
-### Graphic asset
+### Graphic assets
 
-The interface's top frame is located here:
+The plugin-specific assets are located in `graphics/interface/nuzlocke_graveyard`:
 
-```text
-graphics/interface/nuzlocke_graveyard/frame.png
-```
+- `frame.png`: top frame used in both modes;
+- `button_fr.png`: Pokémon button used in `:dex` mode when the game is in French;
+- `button_en.png`: Pokémon button used in `:dex` mode when the game is in English or another language.
+
+The `:party` mode reuses PSDK's native Party menu buttons.
 
 ### Opening command
 
